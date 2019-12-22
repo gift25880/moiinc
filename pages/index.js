@@ -1,5 +1,6 @@
 import React, { Component, Fragment } from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import '../static/css/index.css'
 import { ParallaxProvider, Parallax } from 'react-scroll-parallax';
 import Navbar from '../Components/Navbar'
 import Banner from '../Components/Banner'

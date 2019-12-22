@@ -10,9 +10,9 @@ export const Header = (props) => {
 
 export const Content = (props) => {
     return(
-        <p className={`${props.color}`}>
+        <h5 className={`${props.color}`}>
             { props.content }
-        </p>
+        </h5>
     )
 }
 
