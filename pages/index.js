@@ -8,6 +8,7 @@ import FirstSection from '../Components/FirstSection'
 import Banner2 from '../Components/Banner2'
 import SecondSection from '../Components/SecondSection'
 import Banner3 from '../Components/Banner3'
+import ThirdSection from '../Components/ThirdSection'
 
 export default class index extends Component {
     render() {
@@ -25,6 +26,7 @@ export default class index extends Component {
                     </Parallax>
                     <Parallax y={[10,-20]}>
                         <Banner3 />
+                        <ThirdSection />
                     </Parallax>
                 </ParallaxProvider>
             </Fragment>

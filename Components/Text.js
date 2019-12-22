@@ -8,6 +8,8 @@ export const Header = (props) => {
     )
 }
 
+
+
 export const Content = (props) => {
     return(
         <h5 className={`${props.color}`}>
