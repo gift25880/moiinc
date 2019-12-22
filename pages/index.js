@@ -10,7 +10,6 @@ export default class index extends Component {
         return (
             <Fragment>
                 <ParallaxProvider>
-                
                     <Navbar />
                     <Parallax y={[15,-20]}>
                         <Banner />
