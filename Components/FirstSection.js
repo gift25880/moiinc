@@ -20,7 +20,7 @@ const FirstSectionText2 = {
 export default class FirstSection extends Component {
     render() {
         return (
-            <Parallax y={[40,-80]}>
+            <Parallax y={[20,-50]}>
                 <FirstDiv>
                     <h4 className="container" style={FirstSectionText}>
                         AVEC PLUS DE 20 ANS D’EXPÉRIENCES CUMULÉES, L’ÉQUIPE DES CONFÉRENCES SYLVAIN BOUDREAU PROPOSE DES CONFÉRENCES STIMULANTES ET DYNAMIQUES QUI S'ADAPTENT AUX RÉALITÉS DES DIFFÉRENTES ENTREPRISES ET DE LEUR MILIEU.
