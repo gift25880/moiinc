@@ -13,3 +13,7 @@ body, html {
 .text-blue {
     color: #0000A0;
 }
+
+.text-grey {
+    color: grey;
+}
