@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import { Parallax } from 'react-scroll-parallax';
 import styled from 'styled-components'
+import { Container, Row, Col } from 'reactstrap';
+import Images from './ImgColumn';
 
 const FirstDiv = styled.div`
     background-color: white;
@@ -26,6 +28,22 @@ export default class FirstSection extends Component {
                         AVEC PLUS DE 20 ANS D’EXPÉRIENCES CUMULÉES, L’ÉQUIPE DES CONFÉRENCES SYLVAIN BOUDREAU PROPOSE DES CONFÉRENCES STIMULANTES ET DYNAMIQUES QUI S'ADAPTENT AUX RÉALITÉS DES DIFFÉRENTES ENTREPRISES ET DE LEUR MILIEU.
                     </h4>
                     <h1 style={FirstSectionText2}>Quelques chiffres intéressants!</h1>
+                    <Container>
+                        <Row>
+                            <Col lg="3">
+                                <img src="/static/img/scotland.png"/>
+                            </Col>
+                            <Col lg="3"></Col>
+                            <Col lg="3"></Col>
+                            <Col lg="3"></Col>
+                        </Row>
+                        <Row>
+                            <Col lg="3"></Col>
+                            <Col lg="3"></Col>
+                            <Col lg="3"></Col>
+                            <Col lg="3"></Col>
+                        </Row>
+                    </Container>
                 </FirstDiv>
             </Parallax>
         )
