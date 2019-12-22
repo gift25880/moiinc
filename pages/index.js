@@ -20,11 +20,11 @@ export default class index extends Component {
                         <Banner />
                         <FirstSection />
                     </Parallax>
-                    <Parallax y={[10,-40]}>
+                    <Parallax y={[15,-30]}>
                         <Banner2/>
                         <SecondSection />
                     </Parallax>
-                    <Parallax y={[10,-20]}>
+                    <Parallax y={[10,-30]}>
                         <Banner3 />
                         <ThirdSection />
                     </Parallax>

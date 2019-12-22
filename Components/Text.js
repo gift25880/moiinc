@@ -8,7 +8,7 @@ export const Header = (props) => {
     )
 }
 
-export const Header2 = (prop) => {
+export const Header2 = (props) => {
     return (
         <h4 className={`${props.color}`}>
             { props.headerText }
