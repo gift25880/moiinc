@@ -8,7 +8,13 @@ export const Header = (props) => {
     )
 }
 
-
+export const Header2 = (prop) => {
+    return (
+        <h4 className={`${props.color}`}>
+            { props.headerText }
+        </h4>
+    )
+}
 
 export const Content = (props) => {
     return(
