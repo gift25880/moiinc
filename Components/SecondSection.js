@@ -4,7 +4,7 @@ import styled from 'styled-components'
 import { Header, Content } from './Text'
 
 const QuoteText = styled.div`
-    padding: 8% 0;
+    padding-top: 8%;
 `
 
 export default class SecondSection extends Component {
